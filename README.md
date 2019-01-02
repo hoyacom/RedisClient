@@ -46,6 +46,10 @@ This is a redis client GUI tool written based on Java SWT and Jedis. It's my obj
 
 ### If you have installed the JDK or JRE 5+ 
 
+#### How to build
+
+   mvn package -P {maven profile}    ex)mvn package -P osx
+ 
 #### For 64 bit windows
  1. Download the runable jar file [redisclient-win32.x86_64.2.0.jar](https://github.com/caoxinyu/RedisClient/blob/windows/release/redisclient-win32.x86_64.2.0.jar?raw=true)
  2. Run the redisclient-win32.x86_64.2.0.jar
@@ -63,4 +67,6 @@ This is a redis client GUI tool written based on Java SWT and Jedis. It's my obj
 If you find this software useful and would like to support it, you can do so simply by scanning my Alipay two-dimension code and donating whatever you like.
 
 ![My code](https://github.com/caoxinyu/RedisClient/raw/windows/src/main/resources/code.png)
- 
+
+
+
